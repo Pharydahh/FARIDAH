@@ -2,118 +2,42 @@
     background-color: aliceblue;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    border-radius: 500px;
+.card{
+    background-color: pink;
+    padding: 3rem;
+    width: 300px;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 600px;
 }
 
-.ulist {
-    display: flex;
-    flex-direction: row;
-    border-radius: 400px;
-}
-
-.logo {
-    color: black;
-    font-size: 2rem;
-    font-style: inherit;
-    margin-right: 3rem;
-    background-color:aliceblue;
-    border-radius: 400px;
-}
- 
-.ulist {
-    list-style: none;
-}
-
-li {
-    color: black;
-    margin-right: 3rem;
-    font-size: 1.5rem;
-    padding: 0.5rem 3rem;
-    border-radius: 2px;
-    background-color: aliceblue;
-}
-
-a {
-    text-decoration: none;
-}
-
-.section2{
-    display: flex;
-    flex-direction: row;
-    background-color:aliceblue;
-    justify-content: center;
-    align-items: center;
-}
-
-.header1 {
-    font-size: 3rem;
-    color: brown;
-    font-weight: 400 ;
-}
-
-.first-div {
-    margin-top: 5rem;
-    width: 500px;
-}
-
-.paragraph1 {
-    background-color: aliceblue;
-    padding: 2fr;
-    border-radius: 10px;
-    font-size: 20pt; 
-}
-
-.btn1 {
-    background-color: black;
-    padding: 10px 30px;
-    color: white;
-}
-
-.second-div {
-    margin: 3rem;
-}
-
-.img1 {
-    width: 500px;
-    border-radius: 400px;
-}
-
-.img2 {
-    width: 100px;
-    position: relative;
-    top: -1.5px;
-    border-radius: 400px;
-}
-
-.img3{
-    width: 500px;
-}
-
-.img4 {
-    width: 500px;
-    border-radius: 500px;
-}
-.img5 {
-    width: 500px;
-    border-radius: 500px;
-}
-
-form{
+.form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
 }
 
-button{
-    max-width: 500px;
+body {
+    align-items: center;
+}
+
+.label {
+    color: black;
+    margin-top: 1rem;
+    align-self: center;
+    font-weight: bolder;
+}
+form input {
+    height: 2.5em;
+    width: 300px;
+}
+
+button {
+    max-width: 200px;
     background-color: black;
-    border-radius: 400px;
-    padding: 10px 30px;
     color: white;
+    border-radius: 20px;
+    text-align: center;
 }
